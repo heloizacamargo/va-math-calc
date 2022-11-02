@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * by c0deblack 2022
+ * https://github.com/c0deblack
+-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ActivityHome" >
+    <item android:id="@+id/drawer_menu_icon"
+        android:icon="@drawable/drawer_menu_icon"
+        android:title="Menu"
+        android:showAsAction="always"
+        tools:ignore="AppCompatResource"
+        />
+        <!--
+            An error is generated using android:showAsAction
+            instead of app:showAsAction, but the latter doesn't show
+            the menu icon on the action bar. The tools:ignore line
+            suppresses that error.
+
+        -->
+
+</menu>
